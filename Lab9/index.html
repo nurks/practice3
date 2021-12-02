@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<main>
+<div id="main">
+
+   <div id="leftspan">
+   <div id="background">
+     <h1 id="lorem">Best chair ever</h1>
+     <p id="additionaltext">I Swear im gonna break my monitor</p>
+   </div>
+
+   </div>
+
+   <div id="rightspan">
+
+
+ 
+
+
+<div id="formtext">
+
+  <img id="logoimg" src="Images/logo.png">
+    <p class="animate__animated animate__rubberBand"  id="text1">Welcome to chair page...!</p>
+
+  </div>
+  
+  <div id="buttons">
+  <button class="animate__animated animate__backInLeft"  id="buttonleft1">Login</button>
+  <button class="animate__animated animate__backInRight"  id="buttonright1"><a class="color" href="index1.html">Register</a></button>
+  </div>
+  <p class="animate__animated animate__flipInX" id="textbelow">Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.</p>
+ 
+ <div id="inputform">
+   <div class="input1">
+  <form name="MyForm" action="#"  method="post">
+  <label id="namelabel" for="name">User Name</label><br><br>
+  <input type="text" name="name" id="name" placeholder="Enter your User name">
+  <div class="error"></div>
+ </div>
+
+ <div class="input2">
+  <form name="myForm2" action="#" onsubmit="return validateForm2()" method="post">
+  <label class="label1" for="password">Password</label>
+  <input type="password" name="password" id="password" placeholder="Enter your password">
+  <div class="error"></div>
+ </div>
+
+ </div>
+
+ <div class="chekbox">
+  <label for="Remember">Remember me?</label>
+  <input type="checkbox" name="remember" id="remember">
+  <a href="#" id="forgot">Forgot Password?</a>
+  
+</div>
+ <button   id="loginbtn">Login</button>
+   </div>
+
+
+</div>
+
+
+</main>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+
+  </body>
+</html>

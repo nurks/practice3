@@ -1,0 +1,135 @@
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  margin-bottom: 200px;
+}
+a {
+ 
+  width: 200px;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:orange; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 0px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:60px; /*ровняем меню по вертикали*/
+  display: block; 
+   text-align: center;
+  border: 4px solid orange; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background:white;
+  color: orange;/*добавляем эффект при наведении*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+
+
+.menu1 ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  margin-bottom: 200px;
+}
+.menu1 a {
+ 
+  width: 200px;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:orange; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 0px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:60px; /*ровняем меню по вертикали*/
+  display: block; 
+  text-align: right;
+font-size: 15px;
+  border: 4px solid orange; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu1 a:hover {
+  background:white;
+  color: orange;/*добавляем эффект при наведении*/
+}
+.menu1 li {
+  float:right; /*Размещаем список горизонтально для реализации меню*/
+}
+
+
+
+
+
+.menu2 ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  margin-bottom: 200px;
+
+ 
+}
+.menu2 a {
+ 
+  width: 200px;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:orange; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 0px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:60px; /*ровняем меню по вертикали*/
+  display: block; 
+     text-align: center;
+  border: 4px solid orange; /*добавляем бордюр справа*/
+ 
+}
+.menu2 a:hover {
+  background:white;
+  color: orange;/*добавляем эффект при наведении*/
+
+}
+.menu2 li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  
+}
+
+
+.menu3 ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+
+ 
+}
+.menu3 a {
+
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:orange; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 0px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:60px; /*ровняем меню по вертикали*/
+  display: block; 
+    text-align: right;
+  border: 4px solid orange; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+ 
+}
+.menu3 a:hover {
+  background:white;
+  color: orange;/*добавляем эффект при наведении*/
+
+}
+.menu3 li {
+  float:centre; /*Размещаем список горизонтально для реализации меню*/
+  
+}

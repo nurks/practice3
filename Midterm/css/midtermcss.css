@@ -1,0 +1,221 @@
+nav{
+display: flex;
+
+}
+
+.name{
+margin-left: 120px;
+
+}
+
+ul.hr {
+    margin-left: 940px;
+
+   }
+
+   ul.hr li {
+    display: inline; 
+    margin-right: 35px; 
+color: black !important;
+    
+   }
+
+   a {
+    text-decoration: none
+
+  }
+
+  body{
+      font-family:Arial, Helvetica, sans-serif;
+      background-color: #e9e9e9;
+  }
+  
+  .textdiv{
+      width: 50%;
+      margin-top: 80px;
+      height: 500px;
+  }
+
+  .photodiv{
+background-image: url(./Pictures/yellow-bg.png) none, inherit;
+width: 50%;
+margin-left: 260px;
+
+  }
+
+  #textdivp1{
+   margin-left: 120px;
+   color: #fdc435;
+   font-size: 20px;
+   margin-top: 20px;
+  }
+
+  #textdivh1{
+margin-left: 120px;
+font-size: 60px;
+margin-top: -10px;
+  }
+  
+  .main{
+      display: flex;
+  }
+  #textdivp2{
+    margin-left: 120px;
+  
+    font-size: 20px;
+  }
+  #button1{
+margin-left: 120px;
+border-style: solid;
+    border-width: 0px;
+    background: #fdc435;
+    border-radius: 5px;
+padding: 10px 15px;
+font-weight: bold;
+font-size: 15px
+  }
+
+  #button2{
+    margin-left: -20px;
+    border-style: solid;
+        border-width: 1px;
+        
+        border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+     font-size: 15px;
+  }
+  a{
+      color: black;
+  }
+  h2{
+      margin-left: 750px;
+      font-size: 35px
+  }
+  .hrproject{
+      width: 80px;
+      margin-left: 780px;
+      border: none;
+      background-color:#fdc435;
+      height: 4px;
+      margin-top: -20px;
+  }
+  .infoblock{
+       display: flex;
+       width: 1200px;
+       height: 320px;
+       margin-left: 225px;
+       flex-direction: row;  
+       align-items:center;
+       border-radius: 20px;
+       background-color: white;
+       margin-bottom: 50px;
+       margin-top: 50px;
+  }
+  .infotext{
+width: 600px;
+
+height: 100%;
+  }
+
+  .infophoto{
+width: 600px;
+height: 100%;
+
+
+  }
+  
+h3{
+    font-size: 35px;
+    margin-left: 70px;
+    margin-top: 70px;
+}  
+.photo1{
+width: 600px;
+
+}
+.blockp{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.button3{
+    margin-left: 70px;
+    border-style: solid;
+        border-width: 1px;
+        border-radius: 25px;
+    padding: 10px 15px;
+  
+   font-size: 15px;
+}
+
+
+
+
+.divlist{
+width: 600px;
+margin-left: 610px;
+margin-top: 20px;
+}
+
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+}
+
+
+
+
+
+.form-control {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+label{
+    margin-bottom: 20px;
+}
+
+.button4{
+    margin-top: 25px;
+    margin-left: 335px;
+border-style: solid;
+    border-width: 0px;
+    background: #fdc435;
+    border-radius: 5px;
+padding: 10px 20px;
+
+font-size: 20px
+}
+
+.divlist{
+
+    margin-top: 70px;
+}
+
+
+.divlogos{
+    display: flex;
+    margin-left: 720px;
+    margin-top: 50px;
+}
+.logo{
+    margin-left: 30px
+}
+
+.lasttext{
+margin-left: 745px;
+color: gray;
+}
+
+#vector{
+width: 100%;
+}

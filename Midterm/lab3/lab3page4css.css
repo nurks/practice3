@@ -1,0 +1,300 @@
+html {
+    background: rgb(68,68,68);
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(51, 51, 51);
+}
+
+header {
+    width: 100%;
+    height: 190px;
+    background-color: #eeeeee;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    height: 3200px;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: #333;
+    position: relative;
+}
+
+.logo {
+    border-top: 11px solid #ef3e36;
+    width: 100%;
+    height: 149px;
+    background: rgb(238,238,238);
+}
+
+.logo img {
+    width: 190px;
+    height: 90px;
+    margin: 21px 0 0 57px;
+}
+
+nav {
+    width: 99.9%;
+    height: 28px;
+    background: rgb(0, 0, 0);
+    border: 1px solid #666666;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 140px;
+    height: 100%;
+    line-height: 28px;
+    margin-right: -4px;
+    background: #939598;
+    border: 1px solid #555555;
+}
+
+nav li.active {
+    background: #666666;
+}
+
+nav li:not(.active):hover {
+    background-color: #ef3e36;
+    transition: 0.75s;
+}
+
+nav li > a {
+    color: #ffffff;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+
+
+img.featureImage {
+    width: 100%;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+h1,h2,h3,h4,h6 {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: #ddd;
+}
+
+h1#perspective {
+    padding-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h4 {
+    font-size: 1.05em;
+    padding-bottom: 0;
+}
+
+p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p {
+    font-size: 100%;
+}
+/* homepage */
+
+p#deffinition {
+    margin: 70px 0 0 0;
+}
+
+
+
+iframe {
+    border: 0px;
+    padding: 50px 0 0 0;
+}
+
+footer {
+    width: 100%;
+    height: 355px;
+    background-color: #111111;
+}
+
+blockquote {
+    width: 100%;
+    height: 30px;
+    margin: 0 auto 0;
+    padding: 15px 0;
+    padding: 10px;
+    color: rgb(173, 173, 173);
+    font-size: 1.1em;
+    color: #cccccc;
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: #444444;   
+    border-top: 1px solid #aaaaaa;
+}
+
+.company-info {
+    width: 960px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+div.address {
+    width: 170px;
+    height: 100%;
+    padding-left: 20px;
+    float: left;
+}
+
+address {
+    color: #888888;
+    font-size: 0.75em; 
+    line-height: 1.6em;
+    border-right: 2px solid #ffffff;
+}
+
+address.singapore {
+    border: none;
+}
+
+h4.city {
+    color: #aaaaaa;
+}
+
+address > a {
+    color: #888888;
+}
+
+address > a:hover {
+    color: #ef3e36;
+    transition: .5s;
+}
+
+p#copyright {
+    padding: 40px 0 10px 0;
+    color: #555555;
+    font-size: .7em;
+    text-align: center;
+    clear: both;
+}
+
+
+
+#content2{
+width: 100%;
+display:flex; 
+align-items:center;
+color: #aaaaaa;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#liheight{
+    line-height: 1.8;
+    
+}
+.ulinline{
+    width: 700px;
+}
+.imageul{
+   padding-left: 20px;
+}
+.bigimg{
+    padding-top: 10px;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.infoblock{
+    display:flex; 
+    align-items:center;
+background-color: #424242;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+height: 300px;
+margin-top: 50px;
+}
+hr{
+    border: none; 
+    background-color: white;
+    color: white;
+    height: 1px; 
+    margin-top: -20px;
+}
+.textblock{
+    width: 600px;
+    margin-top: -120px;
+    margin-left: 20px;
+}
+.photoblock{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+
+
+.textblock2{
+    width: 600px;
+    margin-top: -140px;
+    margin-left: 20px;
+}
+.photoblock2{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+
+
+
+.textblock3{
+    width: 600px;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.photoblock3{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+
+
+
+.textblock4{
+    width: 600px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+.photoblock4{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+
