@@ -40,9 +40,46 @@ form.addEventListener("submit", (e) => {
 };
 
 
-*/
+
+
+
 
 $(document).ready(function(){
-  $("#loginbtn").click(function(){
-    $("#textbelow").hide();
-  });
+$("#loginbtn").click(function(){
+  $("#textbelow").animate({fontSize:30px})
+}
+
+)
+
+
+
+}
+
+
+
+
+
+
+
+)
+
+*/
+
+
+$("#name").on({
+  mouseenter: function(){
+      $('#name').animate({padding:'20px',fontSize:'16px'});
+  },
+  mouseleave: function(){
+      $('#name').animate({padding:'10px',fontSize:'14px'});
+  },
+});
+
+$("#password").on({
+  mouseenter: function(){
+      $('#password').animate({padding:'20px',fontSize:'16px'});
+  },
+  mouseleave: function(){
+      $('#password').animate({padding:'10px',fontSize:'14px'});
+  },
+});
